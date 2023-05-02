@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/derek-perdomo/catkin_workspace/src
+CMAKE_SOURCE_DIR = /home/derek-perdomo/auro_final/catkin_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/derek-perdomo/catkin_workspace/build
+CMAKE_BINARY_DIR = /home/derek-perdomo/auro_final/catkin_workspace/build
 
 # Include any dependencies generated for this target.
 include ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/depend.make
@@ -58,17 +58,17 @@ include ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/pr
 include ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.o.requires:
 
@@ -82,17 +82,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.o.requires:
 
@@ -106,17 +106,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.o.requires:
 
@@ -130,17 +130,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.o.requires:
 
@@ -154,17 +154,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/actuatorcyclic_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.o.requires:
 
@@ -178,17 +178,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.o.requires:
 
@@ -202,17 +202,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.o.requires:
 
@@ -226,17 +226,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/base_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.o.requires:
 
@@ -250,17 +250,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.o.requires:
 
@@ -274,17 +274,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/basecyclic_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.o.requires:
 
@@ -298,17 +298,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.o.requires:
 
@@ -322,17 +322,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/common_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.o.requires:
 
@@ -346,17 +346,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.o.requires:
 
@@ -370,17 +370,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.o.requires:
 
@@ -394,17 +394,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/controlconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.o.requires:
 
@@ -418,17 +418,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.o.requires:
 
@@ -442,17 +442,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.o.requires:
 
@@ -466,17 +466,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/deviceconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.o.requires:
 
@@ -490,17 +490,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.o.requires:
 
@@ -514,17 +514,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.o.requires:
 
@@ -538,17 +538,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/devicemanager_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.o.requires:
 
@@ -562,17 +562,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.o.requires:
 
@@ -586,17 +586,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/grippercyclic_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.o.requires:
 
@@ -610,17 +610,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.o.requires:
 
@@ -634,17 +634,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.o.requires:
 
@@ -658,17 +658,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.o.requires:
 
@@ -682,17 +682,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.o.requires:
 
@@ -706,17 +706,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/interconnectcyclic_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.o.requires:
 
@@ -730,17 +730,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.o.requires:
 
@@ -754,17 +754,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/productconfiguration_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.o.requires:
 
@@ -778,17 +778,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_proto_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_proto_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_proto_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_proto_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_proto_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_proto_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.o.requires:
 
@@ -802,17 +802,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_ros_converter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_ros_converter.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_ros_converter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_ros_converter.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_ros_converter.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_ros_converter.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.o.requires:
 
@@ -826,17 +826,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/robot/visionconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.o.requires:
 
@@ -850,17 +850,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/actuatorconfig_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/actuatorconfig_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/actuatorconfig_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/actuatorconfig_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/actuatorconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/actuatorconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/actuatorconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/actuatorconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.o.requires:
 
@@ -874,17 +874,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/base_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/base_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/base_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/base_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/base_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/base_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/base_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/base_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.o.requires:
 
@@ -898,17 +898,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/controlconfig_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/controlconfig_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/controlconfig_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/controlconfig_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/controlconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/controlconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/controlconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/controlconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.o.requires:
 
@@ -922,17 +922,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/deviceconfig_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/deviceconfig_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/deviceconfig_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/deviceconfig_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/deviceconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/deviceconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/deviceconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/deviceconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.o.requires:
 
@@ -946,17 +946,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/devicemanager_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/devicemanager_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/devicemanager_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/devicemanager_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/devicemanager_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/devicemanager_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/devicemanager_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/devicemanager_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.o.requires:
 
@@ -970,17 +970,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/interconnectconfig_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/interconnectconfig_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/interconnectconfig_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/interconnectconfig_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/interconnectconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/interconnectconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/interconnectconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/interconnectconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.o.requires:
 
@@ -994,17 +994,17 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/genera
 
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.o: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/flags.make
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/visionconfig_services.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/visionconfig_services.cpp
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/visionconfig_services.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/visionconfig_services.cpp
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/visionconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/visionconfig_services.cpp > CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.i
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/visionconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/src/generated/simulation/visionconfig_services.cpp -o CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.s
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.o.requires:
 
@@ -1063,145 +1063,145 @@ kortex_driver_generated_files_OBJECTS = \
 # External object files for target kortex_driver_generated_files
 kortex_driver_generated_files_EXTERNAL_OBJECTS =
 
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/build.make
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_common_planning_interface_objects.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_scene_interface.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_move_group_interface.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_py_bindings_tools.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_cpp.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_warehouse.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libwarehouse_ros.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libtf.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_pick_place_planner.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_move_group_capabilities_base.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_rdf_loader.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_kinematics_plugin_loader.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_robot_model_loader.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_constraint_sampler_manager_loader.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_pipeline.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_trajectory_execution_manager.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_plan_execution.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_scene_monitor.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_collision_plugin_loader.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_ros_occupancy_map_monitor.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_exceptions.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_background_processing.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_kinematics_base.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_robot_model.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_transforms.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_robot_state.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_robot_trajectory.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_interface.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_collision_detection.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_collision_detection_fcl.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_kinematic_constraints.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_scene.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_constraint_samplers.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_request_adapter.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_profiler.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_python_tools.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_trajectory_processing.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_distance_field.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_collision_distance_field.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_kinematics_metrics.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_dynamics_solver.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_utils.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_test_utils.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libfcl.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libkdl_parser.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/liburdf.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librosconsole_bridge.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libsrdfdom.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libgeometric_shapes.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/liboctomap.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/liboctomath.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librandom_numbers.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libclass_loader.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/libPocoFoundation.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libroslib.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librospack.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/liborocos-kdl.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libtf2_ros.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libactionlib.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmessage_filters.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libroscpp.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librosconsole.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libtf2.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librostime.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /home/derek-perdomo/.conan/data/kortex_api_cpp/2.3.0-r.34/kortex/stable/package/c023db9fc677d4d0b3bd0c20f71385e4cf8a1220/lib/libKortexApiCpp.a
-/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX shared library /home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kortex_driver_generated_files.dir/link.txt --verbose=$(VERBOSE)
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorconfig_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/actuatorcyclic_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/base_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/basecyclic_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/common_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/controlconfig_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/deviceconfig_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/devicemanager_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/grippercyclic_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectconfig_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/interconnectcyclic_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/productconfiguration_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_proto_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_ros_converter.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/robot/visionconfig_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/actuatorconfig_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/base_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/controlconfig_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/deviceconfig_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/build.make
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_common_planning_interface_objects.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_scene_interface.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_move_group_interface.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_py_bindings_tools.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_cpp.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_warehouse.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libwarehouse_ros.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libtf.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_pick_place_planner.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_move_group_capabilities_base.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_rdf_loader.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_kinematics_plugin_loader.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_robot_model_loader.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_constraint_sampler_manager_loader.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_pipeline.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_trajectory_execution_manager.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_plan_execution.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_scene_monitor.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_collision_plugin_loader.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_ros_occupancy_map_monitor.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_exceptions.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_background_processing.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_kinematics_base.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_robot_model.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_transforms.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_robot_state.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_robot_trajectory.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_interface.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_collision_detection.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_collision_detection_fcl.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_kinematic_constraints.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_scene.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_constraint_samplers.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_planning_request_adapter.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_profiler.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_python_tools.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_trajectory_processing.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_distance_field.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_collision_distance_field.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_kinematics_metrics.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_dynamics_solver.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_utils.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmoveit_test_utils.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libfcl.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libkdl_parser.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/liburdf.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librosconsole_bridge.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libsrdfdom.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libgeometric_shapes.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/liboctomap.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/liboctomath.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librandom_numbers.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libclass_loader.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/libPocoFoundation.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libroslib.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librospack.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/liborocos-kdl.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/liborocos-kdl.so.1.4.0
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libtf2_ros.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libactionlib.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libmessage_filters.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libroscpp.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librosconsole.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libtf2.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/librostime.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: /home/derek-perdomo/.conan/data/kortex_api_cpp/2.3.0-r.34/kortex/stable/package/c023db9fc677d4d0b3bd0c20f71385e4cf8a1220/lib/libKortexApiCpp.a
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so: ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX shared library /home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kortex_driver_generated_files.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/build: /home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so
+ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/build: /home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so
 
 .PHONY : ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/build
 
@@ -1249,10 +1249,10 @@ ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/requires: 
 .PHONY : ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/requires
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/clean:
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && $(CMAKE_COMMAND) -P CMakeFiles/kortex_driver_generated_files.dir/cmake_clean.cmake
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && $(CMAKE_COMMAND) -P CMakeFiles/kortex_driver_generated_files.dir/cmake_clean.cmake
 .PHONY : ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/clean
 
 ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/depend:
-	cd /home/derek-perdomo/catkin_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek-perdomo/catkin_workspace/src /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver /home/derek-perdomo/catkin_workspace/build /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek-perdomo/auro_final/catkin_workspace/src /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver /home/derek-perdomo/auro_final/catkin_workspace/build /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros_kortex/kortex_driver/CMakeFiles/kortex_driver_generated_files.dir/depend
 

@@ -1,4 +1,4 @@
-prefix=/home/derek-perdomo/catkin_workspace/install
+prefix=/home/derek-perdomo/auro_final/catkin_workspace/install
 
 Name: gazebo_grasp_plugin
 Description: Description of gazebo_grasp_plugin

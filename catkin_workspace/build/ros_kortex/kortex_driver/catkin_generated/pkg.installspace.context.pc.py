@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "actionlib_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "kortex_driver"
-PROJECT_SPACE_DIR = "/home/derek-perdomo/catkin_workspace/install"
+PROJECT_SPACE_DIR = "/home/derek-perdomo/auro_final/catkin_workspace/install"
 PROJECT_VERSION = "2.2.2"

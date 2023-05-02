@@ -1,8 +1,8 @@
-# Install script for directory: /home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers
+# Install script for directory: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/derek-perdomo/catkin_workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/derek-perdomo/auro_final/catkin_workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/catkin_generated/installspace/gazebo_version_helpers.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/catkin_generated/installspace/gazebo_version_helpers.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_version_helpers/cmake" TYPE FILE FILES
-    "/home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/catkin_generated/installspace/gazebo_version_helpersConfig.cmake"
-    "/home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/catkin_generated/installspace/gazebo_version_helpersConfig-version.cmake"
+    "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/catkin_generated/installspace/gazebo_version_helpersConfig.cmake"
+    "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/catkin_generated/installspace/gazebo_version_helpersConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_version_helpers" TYPE FILE FILES "/home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_version_helpers" TYPE FILE FILES "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/package.xml")
 endif()
 

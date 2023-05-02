@@ -7,4 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/derek-perdomo/catkin_workspace/build'
+export LD_LIBRARY_PATH='/opt/ros/melodic/lib'
+export PKG_CONFIG_PATH='/opt/ros/melodic/lib/pkgconfig'
+export PWD='/home/derek-perdomo/auro_final/catkin_workspace/build'
+export PYTHONPATH='/opt/ros/melodic/lib/python2.7/dist-packages'
+export ROS_PACKAGE_PATH='/home/derek-perdomo/auro_final/catkin_workspace/src:/opt/ros/melodic/share'

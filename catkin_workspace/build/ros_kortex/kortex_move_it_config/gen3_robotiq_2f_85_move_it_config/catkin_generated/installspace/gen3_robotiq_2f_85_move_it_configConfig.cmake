@@ -67,14 +67,14 @@ set(gen3_robotiq_2f_85_move_it_config_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gen3_robotiq_2f_85_move_it_config_SOURCE_PREFIX /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_move_it_config/gen3_robotiq_2f_85_move_it_config)
-  set(gen3_robotiq_2f_85_move_it_config_DEVEL_PREFIX /home/derek-perdomo/catkin_workspace/devel)
+  set(gen3_robotiq_2f_85_move_it_config_SOURCE_PREFIX /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_move_it_config/gen3_robotiq_2f_85_move_it_config)
+  set(gen3_robotiq_2f_85_move_it_config_DEVEL_PREFIX /home/derek-perdomo/auro_final/catkin_workspace/devel)
   set(gen3_robotiq_2f_85_move_it_config_INSTALL_PREFIX "")
   set(gen3_robotiq_2f_85_move_it_config_PREFIX ${gen3_robotiq_2f_85_move_it_config_DEVEL_PREFIX})
 else()
   set(gen3_robotiq_2f_85_move_it_config_SOURCE_PREFIX "")
   set(gen3_robotiq_2f_85_move_it_config_DEVEL_PREFIX "")
-  set(gen3_robotiq_2f_85_move_it_config_INSTALL_PREFIX /home/derek-perdomo/catkin_workspace/install)
+  set(gen3_robotiq_2f_85_move_it_config_INSTALL_PREFIX /home/derek-perdomo/auro_final/catkin_workspace/install)
   set(gen3_robotiq_2f_85_move_it_config_PREFIX ${gen3_robotiq_2f_85_move_it_config_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/derek-perdomo/catkin_workspace/install/lib;/home/derek-perdomo/catkin_workspace/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/derek-perdomo/auro_final/catkin_workspace/install/lib;/home/derek-perdomo/auro_final/catkin_workspace/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

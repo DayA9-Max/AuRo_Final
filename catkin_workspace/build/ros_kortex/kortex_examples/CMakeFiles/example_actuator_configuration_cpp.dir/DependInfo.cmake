@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_examples/src/actuator_config/example_actuator_configuration.cpp" "/home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_examples/CMakeFiles/example_actuator_configuration_cpp.dir/src/actuator_config/example_actuator_configuration.cpp.o"
+  "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_examples/src/actuator_config/example_actuator_configuration.cpp" "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_examples/CMakeFiles/example_actuator_configuration_cpp.dir/src/actuator_config/example_actuator_configuration.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,15 +18,15 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_examples/include"
-  "/home/derek-perdomo/catkin_workspace/devel/include"
+  "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_examples/include"
+  "/home/derek-perdomo/auro_final/catkin_workspace/devel/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_examples/src"
-  "/home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/client"
-  "/home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/client_stubs"
-  "/home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/messages"
-  "/home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/common"
+  "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_examples/src"
+  "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/client"
+  "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/client_stubs"
+  "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/messages"
+  "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_examples/../kortex_api/include/common"
   )
 
 # Targets to which this target links.

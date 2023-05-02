@@ -1,8 +1,8 @@
-# Install script for directory: /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_move_it_config/kortex_move_it_config
+# Install script for directory: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_move_it_config/kortex_move_it_config
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/derek-perdomo/catkin_workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/derek-perdomo/auro_final/catkin_workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kortex_move_it_config" TYPE FILE FILES "/home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_move_it_config/kortex_move_it_config/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kortex_move_it_config" TYPE FILE FILES "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_move_it_config/kortex_move_it_config/package.xml")
 endif()
 

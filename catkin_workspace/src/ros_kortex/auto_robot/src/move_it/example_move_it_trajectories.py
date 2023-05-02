@@ -208,6 +208,9 @@ def callback(data):
     actual_pose.position.y = 0
     actual_pose.position.z = 0.15
     success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.01, constraints=constraints)
+    actual_pose.position.x = 0.25
+    actual_pose.position.y = 0.25
+    actual_pose.position.z = 0.01
     rospy.loginfo("Ending...")
     for i in range(60):
     	auto_pub.publish(actual_pose)

@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/kortex_arm_driver_implementation.dir/src/non-generated/driver/kortex_math_util.cpp.o"
   "CMakeFiles/kortex_arm_driver_implementation.dir/src/non-generated/driver/kortex_subscribers.cpp.o"
   "CMakeFiles/kortex_arm_driver_implementation.dir/src/non-generated/driver/robotiq_gripper_command_action_server.cpp.o"
-  "/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_arm_driver_implementation.pdb"
-  "/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_arm_driver_implementation.so"
+  "/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_arm_driver_implementation.pdb"
+  "/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_arm_driver_implementation.so"
 )
 
 # Per-language clean rules from dependency scanning.

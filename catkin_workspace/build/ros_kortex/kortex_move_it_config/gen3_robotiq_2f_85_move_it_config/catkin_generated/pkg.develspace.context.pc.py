@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "gen3_robotiq_2f_85_move_it_config"
-PROJECT_SPACE_DIR = "/home/derek-perdomo/catkin_workspace/devel"
+PROJECT_SPACE_DIR = "/home/derek-perdomo/auro_final/catkin_workspace/devel"
 PROJECT_VERSION = "2.2.2"

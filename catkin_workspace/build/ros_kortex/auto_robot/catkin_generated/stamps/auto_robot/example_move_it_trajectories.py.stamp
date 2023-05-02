@@ -50,8 +50,6 @@ from std_msgs.msg import String
 from math import pi
 from std_srvs.srv import Empty
 
-move_robot = False
-
 class ExampleMoveItTrajectories(object):
   """ExampleMoveItTrajectories"""
 
@@ -60,8 +58,7 @@ class ExampleMoveItTrajectories(object):
     # Initialize the node
     super(ExampleMoveItTrajectories, self).__init__()
     moveit_commander.roscpp_initialize(sys.argv)
-    rospy.init_node('example_move_it_trajectories')
-    rospy.spin()
+    rospy.init_node('example_move_it_trajectories', disable_signals=True)
     try:
       self.is_gripper_present = rospy.get_param(rospy.get_namespace() + "is_gripper_present", False)
       if self.is_gripper_present:
@@ -116,22 +113,14 @@ class ExampleMoveItTrajectories(object):
     # Set the goal joint tolerance
     self.arm_group.set_goal_joint_tolerance(tolerance)
 
-    # Set the joint target configuration
-    if self.degrees_of_freedom == 7:
-      joint_positions[0] = pi/2
-      joint_positions[1] = 0
-      joint_positions[2] = pi/4
-      joint_positions[3] = -pi/4
-      joint_positions[4] = 0
-      joint_positions[5] = pi/2
-      joint_positions[6] = 0.2
-    elif self.degrees_of_freedom == 6:
+
+    if self.degrees_of_freedom == 6:
       joint_positions[0] = 0
       joint_positions[1] = 0
       joint_positions[2] = pi/2
-      joint_positions[3] = pi/4
-      joint_positions[4] = 0
-      joint_positions[5] = pi/2
+      joint_positions[3] = -pi/2
+      joint_positions[4] = -pi/2
+      joint_positions[5] = 0
     arm_group.set_joint_value_target(joint_positions)
     
     # Plan and execute in one command
@@ -184,47 +173,67 @@ class ExampleMoveItTrajectories(object):
       return False 
 
 def callback(data):
-    rospy.loginfo(rospy.get_caller_id() + "I heard %s", data.data)
-    move_robot = True
+    auto_sub.unregister()
+    rospy.loginfo("Reach Cartesian Pose with constraints...")
+    # Get actual pose
+    actual_pose = example.get_cartesian_pose()
+    actual_pose.position.x = data.position.x
+    actual_pose.position.y = data.position.y
+    actual_pose.position.z = data.position.z
+    
+    # Orientation constraint (we want the end effector to stay the same          orientation)
+    #constraints = moveit_msgs.msg.Constraints()
+    #orientation_constraint = moveit_msgs.msg.OrientationConstraint()
+    #orientation_constraint.orientation = actual_pose.orientation
+    #constraints.orientation_constraints.append(orientation_constraint)
+    constraints = None
+
+    # Send the goal
+    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.005, constraints=constraints)
+    rospy.loginfo("Closing the gripper 50%...")
+    success = example.reach_gripper_position(0.47)
+ 
+    actual_pose.position.z += 0.15
+    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.005, constraints=constraints)
+    
+    actual_pose.position.x = 0.25
+    actual_pose.position.y = 0.25
+    actual_pose.position.z = 0.01
+    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.005, constraints=constraints)
+   
+    rospy.loginfo("opening the gripper 50%...")
+    success = example.reach_gripper_position(0.9)
+   
+    actual_pose.position.x = 0.1453
+    actual_pose.position.y = 0
+    actual_pose.position.z = 0.15
+    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.01, constraints=constraints)
+    rospy.loginfo("Ending...")
+    for i in range(60):
+    	auto_pub.publish(actual_pose)
+	rospy.sleep(1.)
+    rospy.signal_shutdown("Ending")
     return
 
 def main():
+  global example
+  global success
+  global auto_sub
+  global auto_pub
   example = ExampleMoveItTrajectories()
-  
-  rospy.Subscriber('auto_robot_pose', String, callback)
-
-  rospy.loginfo("Reaching Named Target Home...")
-  success &= example.reach_named_position("home")
+  success = True
+  rospy.loginfo("Init...")
+  example.reach_joint_angles(0.005)
+  success = example.reach_gripper_position(0.1)
+  success = example.reach_gripper_position(0.85)
   print (success)
-  
-  while(not move_robot):
-	print("holding")
+  auto_sub = rospy.get_namespace() + "arm_pose"
+  auto_sub = rospy.Subscriber(auto_sub, geometry_msgs.msg.Pose, callback)
+  auto_pub = rospy.Publisher(rospy.get_namespace()+"arm_result_pose", geometry_msgs.msg.Pose, queue_size=1)
+  rate = rospy.Rate(2) # 10hz
 
-  rospy.loginfo("Reach Cartesian Pose with constraints...")
-  # Get actual pose
-  actual_pose = example.get_cartesian_pose()
-  actual_pose.position.y -= 0.3
-    
-  # Orientation constraint (we want the end effector to stay the same orientation)
-  constraints = moveit_msgs.msg.Constraints()
-  orientation_constraint = moveit_msgs.msg.OrientationConstraint()
-  orientation_constraint.orientation = actual_pose.orientation
-  constraints.orientation_constraints.append(orientation_constraint)
-
-  # Send the goal
-  success &= example.reach_cartesian_pose(pose=actual_pose, tolerance=0.01, constraints=constraints)
-
-  if example.is_gripper_present and success:
-    rospy.loginfo("Opening the gripper...")
-    success &= example.reach_gripper_position(0)
-    print (success)
-
-    rospy.loginfo("Closing the gripper 50%...")
-    success &= example.reach_gripper_position(0.5)
-    print (success)
-
-  if not success:
-      rospy.logerr("The example encountered an error.")
+  rospy.loginfo("holding...")
+  rospy.spin()
 
 if __name__ == '__main__':
   main()

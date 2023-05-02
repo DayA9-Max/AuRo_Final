@@ -39,8 +39,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/devicemanager_services.cpp.o"
   "CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/interconnectconfig_services.cpp.o"
   "CMakeFiles/kortex_driver_generated_files.dir/src/generated/simulation/visionconfig_services.cpp.o"
-  "/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.pdb"
-  "/home/derek-perdomo/catkin_workspace/devel/lib/libkortex_driver_generated_files.so"
+  "/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.pdb"
+  "/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libkortex_driver_generated_files.so"
 )
 
 # Per-language clean rules from dependency scanning.

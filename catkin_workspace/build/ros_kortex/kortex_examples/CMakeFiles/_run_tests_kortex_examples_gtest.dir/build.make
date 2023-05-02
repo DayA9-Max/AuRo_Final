@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/derek-perdomo/catkin_workspace/src
+CMAKE_SOURCE_DIR = /home/derek-perdomo/auro_final/catkin_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/derek-perdomo/catkin_workspace/build
+CMAKE_BINARY_DIR = /home/derek-perdomo/auro_final/catkin_workspace/build
 
 # Utility rule file for _run_tests_kortex_examples_gtest.
 
@@ -63,10 +63,10 @@ ros_kortex/kortex_examples/CMakeFiles/_run_tests_kortex_examples_gtest.dir/build
 .PHONY : ros_kortex/kortex_examples/CMakeFiles/_run_tests_kortex_examples_gtest.dir/build
 
 ros_kortex/kortex_examples/CMakeFiles/_run_tests_kortex_examples_gtest.dir/clean:
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_examples && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_kortex_examples_gtest.dir/cmake_clean.cmake
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_examples && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_kortex_examples_gtest.dir/cmake_clean.cmake
 .PHONY : ros_kortex/kortex_examples/CMakeFiles/_run_tests_kortex_examples_gtest.dir/clean
 
 ros_kortex/kortex_examples/CMakeFiles/_run_tests_kortex_examples_gtest.dir/depend:
-	cd /home/derek-perdomo/catkin_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek-perdomo/catkin_workspace/src /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_examples /home/derek-perdomo/catkin_workspace/build /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_examples /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_examples/CMakeFiles/_run_tests_kortex_examples_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek-perdomo/auro_final/catkin_workspace/src /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_examples /home/derek-perdomo/auro_final/catkin_workspace/build /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_examples /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_examples/CMakeFiles/_run_tests_kortex_examples_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros_kortex/kortex_examples/CMakeFiles/_run_tests_kortex_examples_gtest.dir/depend
 

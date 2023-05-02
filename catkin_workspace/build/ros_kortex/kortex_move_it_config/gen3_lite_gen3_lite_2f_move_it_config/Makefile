@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/derek-perdomo/catkin_workspace/src
+CMAKE_SOURCE_DIR = /home/derek-perdomo/auro_final/catkin_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/derek-perdomo/catkin_workspace/build
+CMAKE_BINARY_DIR = /home/derek-perdomo/auro_final/catkin_workspace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/derek-perdomo/catkin_workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/derek-perdomo/catkin_workspace/build/CMakeFiles /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_move_it_config/gen3_lite_gen3_lite_2f_move_it_config/CMakeFiles/progress.marks
-	cd /home/derek-perdomo/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 ros_kortex/kortex_move_it_config/gen3_lite_gen3_lite_2f_move_it_config/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/derek-perdomo/catkin_workspace/build/CMakeFiles 0
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_move_it_config/gen3_lite_gen3_lite_2f_move_it_config/CMakeFiles/progress.marks
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 ros_kortex/kortex_move_it_config/gen3_lite_gen3_lite_2f_move_it_config/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/derek-perdomo/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 ros_kortex/kortex_move_it_config/gen3_lite_gen3_lite_2f_move_it_config/clean
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 ros_kortex/kortex_move_it_config/gen3_lite_gen3_lite_2f_move_it_config/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/derek-perdomo/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 ros_kortex/kortex_move_it_config/gen3_lite_gen3_lite_2f_move_it_config/preinstall
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 ros_kortex/kortex_move_it_config/gen3_lite_gen3_lite_2f_move_it_config/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/derek-perdomo/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 ros_kortex/kortex_move_it_config/gen3_lite_gen3_lite_2f_move_it_config/preinstall
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build && $(MAKE) -f CMakeFiles/Makefile2 ros_kortex/kortex_move_it_config/gen3_lite_gen3_lite_2f_move_it_config/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/derek-perdomo/catkin_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/derek-perdomo/catkin_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

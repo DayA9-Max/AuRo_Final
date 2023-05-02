@@ -1,4 +1,4 @@
-prefix=/home/derek-perdomo/catkin_workspace/devel
+prefix=/home/derek-perdomo/auro_final/catkin_workspace/devel
 
 Name: kortex_control
 Description: Description of kortex_control

@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/kortex_arm_driver_func_tests.dir/src/non-generated/tests/kortex_arm_driver_func_tests.cc.o"
   "CMakeFiles/kortex_arm_driver_func_tests.dir/src/non-generated/tests/kortex_simulator_unit_tests.cc.o"
   "CMakeFiles/kortex_arm_driver_func_tests.dir/src/non-generated/tests/main.cc.o"
-  "/home/derek-perdomo/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests.pdb"
-  "/home/derek-perdomo/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests"
+  "/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests.pdb"
+  "/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/kortex_driver/kortex_arm_driver_func_tests"
 )
 
 # Per-language clean rules from dependency scanning.

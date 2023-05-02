@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/derek-perdomo/catkin_workspace/src
+CMAKE_SOURCE_DIR = /home/derek-perdomo/auro_final/catkin_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/derek-perdomo/catkin_workspace/build
+CMAKE_BINARY_DIR = /home/derek-perdomo/auro_final/catkin_workspace/build
 
 # Include any dependencies generated for this target.
 include ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/depend.make
@@ -58,17 +58,17 @@ include ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo
 include ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/flags.make
 
 ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o: ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/flags.make
-ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp
+ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp
 
 ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp > CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp > CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.i
 
 ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp -o CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspFix.cpp -o CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.s
 
 ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o.requires:
 
@@ -82,17 +82,17 @@ ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_f
 
 
 ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o: ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/flags.make
-ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o: /home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o -c /home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp
+ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o -c /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp
 
 ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.i"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp > CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.i
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp > CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.i
 
 ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.s"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp -o CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.s
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/src/GazeboGraspGripper.cpp -o CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.s
 
 ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o.requires:
 
@@ -113,60 +113,60 @@ gazebo_grasp_fix_OBJECTS = \
 # External object files for target gazebo_grasp_fix
 gazebo_grasp_fix_EXTERNAL_OBJECTS =
 
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/build.make
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_version_helpers.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libgazebo_ros_api_plugin.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libgazebo_ros_paths_plugin.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libroslib.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/librospack.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libtf.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libtf2_ros.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libactionlib.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libmessage_filters.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libtf2.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libroscpp.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/librosconsole.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/librostime.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/derek-perdomo/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so"
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_grasp_fix.dir/link.txt --verbose=$(VERBOSE)
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspFix.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/src/GazeboGraspGripper.cpp.o
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/build.make
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_version_helpers.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libgazebo_ros_api_plugin.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libgazebo_ros_paths_plugin.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libroslib.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/librospack.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libtf.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libtf2_ros.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libactionlib.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libmessage_filters.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libtf2.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libroscpp.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/librosconsole.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/librostime.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so: ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/derek-perdomo/auro_final/catkin_workspace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so"
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_grasp_fix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/build: /home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so
+ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/build: /home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so
 
 .PHONY : ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/build
 
@@ -176,10 +176,10 @@ ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_f
 .PHONY : ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/requires
 
 ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/clean:
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_grasp_fix.dir/cmake_clean.cmake
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_grasp_fix.dir/cmake_clean.cmake
 .PHONY : ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/clean
 
 ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/depend:
-	cd /home/derek-perdomo/catkin_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek-perdomo/catkin_workspace/src /home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin /home/derek-perdomo/catkin_workspace/build /home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin /home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek-perdomo/auro_final/catkin_workspace/src /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin /home/derek-perdomo/auro_final/catkin_workspace/build /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/CMakeFiles/gazebo_grasp_fix.dir/depend
 

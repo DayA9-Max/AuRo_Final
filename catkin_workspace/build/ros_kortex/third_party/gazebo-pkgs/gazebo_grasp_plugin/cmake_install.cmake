@@ -1,8 +1,8 @@
-# Install script for directory: /home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin
+# Install script for directory: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/derek-perdomo/catkin_workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/derek-perdomo/auro_final/catkin_workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/catkin_generated/installspace/gazebo_grasp_plugin.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/catkin_generated/installspace/gazebo_grasp_plugin.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin/cmake" TYPE FILE FILES
-    "/home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/catkin_generated/installspace/gazebo_grasp_pluginConfig.cmake"
-    "/home/derek-perdomo/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/catkin_generated/installspace/gazebo_grasp_pluginConfig-version.cmake"
+    "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/catkin_generated/installspace/gazebo_grasp_pluginConfig.cmake"
+    "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/catkin_generated/installspace/gazebo_grasp_pluginConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin" TYPE FILE FILES "/home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin" TYPE FILE FILES "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,12 +59,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_grasp_fix.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/derek-perdomo/catkin_workspace/devel/lib/libgazebo_grasp_fix.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/derek-perdomo/auro_final/catkin_workspace/devel/lib/libgazebo_grasp_fix.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_grasp_fix.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_grasp_fix.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_grasp_fix.so"
-         OLD_RPATH "/opt/ros/melodic/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/BEFORE:/home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/../../../kortex_gazebo/lib:/home/derek-perdomo/catkin_workspace/devel/lib:"
+         OLD_RPATH "/opt/ros/melodic/lib:/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/BEFORE:/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/../../../kortex_gazebo/lib:/home/derek-perdomo/auro_final/catkin_workspace/devel/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgazebo_grasp_fix.so")
@@ -73,10 +73,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gazebo_grasp_plugin" TYPE DIRECTORY FILES "/home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/include/gazebo_grasp_plugin/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gazebo_grasp_plugin" TYPE DIRECTORY FILES "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/include/gazebo_grasp_plugin/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin" TYPE DIRECTORY FILES "/home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/launch" FILES_MATCHING REGEX "/[^/]*\\.launch$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gazebo_grasp_plugin" TYPE DIRECTORY FILES "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_grasp_plugin/launch" FILES_MATCHING REGEX "/[^/]*\\.launch$")
 endif()
 

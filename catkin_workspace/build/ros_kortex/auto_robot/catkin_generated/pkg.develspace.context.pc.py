@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "auto_robot"
-PROJECT_SPACE_DIR = "/home/derek-perdomo/catkin_workspace/devel"
+PROJECT_SPACE_DIR = "/home/derek-perdomo/auro_final/catkin_workspace/devel"
 PROJECT_VERSION = "2.2.2"

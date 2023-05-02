@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/include/gazebo_version_helpers/GazeboVersionHelpers.h
+/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/include/gazebo_version_helpers/GazeboVersionHelpers.h
 gazebo/gazebo.hh
 -
 
-/home/derek-perdomo/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/src/GazeboVersionHelpers.cpp
+/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/third_party/gazebo-pkgs/gazebo_version_helpers/src/GazeboVersionHelpers.cpp
 gazebo_version_helpers/GazeboVersionHelpers.h
 -
 gazebo/physics/physics.hh

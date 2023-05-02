@@ -67,14 +67,14 @@ set(auto_robot_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(auto_robot_SOURCE_PREFIX /home/derek-perdomo/catkin_workspace/src/ros_kortex/auto_robot)
-  set(auto_robot_DEVEL_PREFIX /home/derek-perdomo/catkin_workspace/devel)
+  set(auto_robot_SOURCE_PREFIX /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/auto_robot)
+  set(auto_robot_DEVEL_PREFIX /home/derek-perdomo/auro_final/catkin_workspace/devel)
   set(auto_robot_INSTALL_PREFIX "")
   set(auto_robot_PREFIX ${auto_robot_DEVEL_PREFIX})
 else()
   set(auto_robot_SOURCE_PREFIX "")
   set(auto_robot_DEVEL_PREFIX "")
-  set(auto_robot_INSTALL_PREFIX /home/derek-perdomo/catkin_workspace/install)
+  set(auto_robot_INSTALL_PREFIX /home/derek-perdomo/auro_final/catkin_workspace/install)
   set(auto_robot_PREFIX ${auto_robot_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/derek-perdomo/catkin_workspace/install/lib;/home/derek-perdomo/catkin_workspace/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/derek-perdomo/auro_final/catkin_workspace/install/lib;/home/derek-perdomo/auro_final/catkin_workspace/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

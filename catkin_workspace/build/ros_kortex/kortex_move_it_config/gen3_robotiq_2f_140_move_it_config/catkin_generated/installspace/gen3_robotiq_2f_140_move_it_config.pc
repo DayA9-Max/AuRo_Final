@@ -1,4 +1,4 @@
-prefix=/home/derek-perdomo/catkin_workspace/install
+prefix=/home/derek-perdomo/auro_final/catkin_workspace/install
 
 Name: gen3_robotiq_2f_140_move_it_config
 Description: Description of gen3_robotiq_2f_140_move_it_config

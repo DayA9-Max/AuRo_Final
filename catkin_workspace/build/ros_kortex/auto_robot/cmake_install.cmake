@@ -1,8 +1,8 @@
-# Install script for directory: /home/derek-perdomo/catkin_workspace/src/ros_kortex/auto_robot
+# Install script for directory: /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/auto_robot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/derek-perdomo/catkin_workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/derek-perdomo/auro_final/catkin_workspace/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,32 +38,32 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/derek-perdomo/catkin_workspace/build/ros_kortex/auto_robot/catkin_generated/installspace/auto_robot.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/auto_robot/catkin_generated/installspace/auto_robot.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/auto_robot/cmake" TYPE FILE FILES
-    "/home/derek-perdomo/catkin_workspace/build/ros_kortex/auto_robot/catkin_generated/installspace/auto_robotConfig.cmake"
-    "/home/derek-perdomo/catkin_workspace/build/ros_kortex/auto_robot/catkin_generated/installspace/auto_robotConfig-version.cmake"
+    "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/auto_robot/catkin_generated/installspace/auto_robotConfig.cmake"
+    "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/auto_robot/catkin_generated/installspace/auto_robotConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/auto_robot" TYPE FILE FILES "/home/derek-perdomo/catkin_workspace/src/ros_kortex/auto_robot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/auto_robot" TYPE FILE FILES "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/auto_robot/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/auto_robot/srv" TYPE FILE FILES
-    "/home/derek-perdomo/catkin_workspace/src/ros_kortex/auto_robot/srv/AddTwoInts.srv"
-    "/home/derek-perdomo/catkin_workspace/src/ros_kortex/auto_robot/srv/AutoService.srv"
+    "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/auto_robot/srv/AddTwoInts.srv"
+    "/home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/auto_robot/srv/AutoService.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/auto_robot" TYPE PROGRAM FILES "/home/derek-perdomo/catkin_workspace/build/ros_kortex/auto_robot/catkin_generated/installspace/example_move_it_trajectories.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/auto_robot" TYPE PROGRAM FILES "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/auto_robot/catkin_generated/installspace/example_move_it_trajectories.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/auto_robot" TYPE PROGRAM FILES "/home/derek-perdomo/catkin_workspace/build/ros_kortex/auto_robot/catkin_generated/installspace/talker.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/auto_robot" TYPE PROGRAM FILES "/home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/auto_robot/catkin_generated/installspace/talker.py")
 endif()
 

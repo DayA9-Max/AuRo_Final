@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/derek-perdomo/catkin_workspace/src
+CMAKE_SOURCE_DIR = /home/derek-perdomo/auro_final/catkin_workspace/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/derek-perdomo/catkin_workspace/build
+CMAKE_BINARY_DIR = /home/derek-perdomo/auro_final/catkin_workspace/build
 
 # Utility rule file for _kortex_driver_generate_messages_check_deps_CreateSequence.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/derek-perdomo/catkin_workspace/build
 include ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence.dir/progress.make
 
 ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence:
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kortex_driver /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver/srv/generated/base/CreateSequence.srv kortex_driver/AngularWaypoint:kortex_driver/SequenceTask:kortex_driver/JointTrajectoryConstraint:kortex_driver/Gripper:kortex_driver/Pose:kortex_driver/PreComputedJointTrajectory:kortex_driver/Action_action_parameters:kortex_driver/PreComputedJointTrajectoryElement:kortex_driver/Faults:kortex_driver/ChangeJointSpeeds:kortex_driver/MapGroupHandle:kortex_driver/Twist:kortex_driver/Finger:kortex_driver/Snapshot:kortex_driver/ChangeWrench:kortex_driver/GpioCommand:kortex_driver/CartesianTrajectoryConstraint_type:kortex_driver/ConstrainedJointAngles:kortex_driver/Sequence:kortex_driver/Base_JointSpeeds:kortex_driver/CartesianWaypoint:kortex_driver/Base_Stop:kortex_driver/Action:kortex_driver/EmergencyStop:kortex_driver/JointAngles:kortex_driver/Wrench:kortex_driver/ActionHandle:kortex_driver/JointSpeed:kortex_driver/ConstrainedPose:kortex_driver/Delay:kortex_driver/JointAngle:kortex_driver/WrenchCommand:kortex_driver/GripperCommand:kortex_driver/WaypointList:kortex_driver/ChangeTwist:kortex_driver/MapHandle:kortex_driver/CartesianSpeed:kortex_driver/Waypoint:kortex_driver/SwitchControlMapping:kortex_driver/TwistCommand:kortex_driver/Waypoint_type_of_waypoint:kortex_driver/SequenceHandle:kortex_driver/CartesianTrajectoryConstraint
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py kortex_driver /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver/srv/generated/base/CreateSequence.srv kortex_driver/Faults:kortex_driver/Waypoint_type_of_waypoint:kortex_driver/Gripper:kortex_driver/SequenceHandle:kortex_driver/MapGroupHandle:kortex_driver/CartesianWaypoint:kortex_driver/Waypoint:kortex_driver/Sequence:kortex_driver/WaypointList:kortex_driver/JointAngles:kortex_driver/ChangeTwist:kortex_driver/CartesianSpeed:kortex_driver/GripperCommand:kortex_driver/Finger:kortex_driver/MapHandle:kortex_driver/Twist:kortex_driver/JointTrajectoryConstraint:kortex_driver/Pose:kortex_driver/Base_JointSpeeds:kortex_driver/ActionHandle:kortex_driver/SwitchControlMapping:kortex_driver/Delay:kortex_driver/Action:kortex_driver/ConstrainedJointAngles:kortex_driver/SequenceTask:kortex_driver/CartesianTrajectoryConstraint_type:kortex_driver/Snapshot:kortex_driver/ConstrainedPose:kortex_driver/Wrench:kortex_driver/CartesianTrajectoryConstraint:kortex_driver/Action_action_parameters:kortex_driver/ChangeJointSpeeds:kortex_driver/GpioCommand:kortex_driver/PreComputedJointTrajectoryElement:kortex_driver/Base_Stop:kortex_driver/JointSpeed:kortex_driver/WrenchCommand:kortex_driver/EmergencyStop:kortex_driver/TwistCommand:kortex_driver/JointAngle:kortex_driver/PreComputedJointTrajectory:kortex_driver/AngularWaypoint:kortex_driver/ChangeWrench
 
 _kortex_driver_generate_messages_check_deps_CreateSequence: ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence
 _kortex_driver_generate_messages_check_deps_CreateSequence: ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence.dir/build.make
@@ -67,10 +67,10 @@ ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_
 .PHONY : ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence.dir/build
 
 ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence.dir/clean:
-	cd /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver && $(CMAKE_COMMAND) -P CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence.dir/cmake_clean.cmake
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver && $(CMAKE_COMMAND) -P CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence.dir/cmake_clean.cmake
 .PHONY : ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence.dir/clean
 
 ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence.dir/depend:
-	cd /home/derek-perdomo/catkin_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek-perdomo/catkin_workspace/src /home/derek-perdomo/catkin_workspace/src/ros_kortex/kortex_driver /home/derek-perdomo/catkin_workspace/build /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver /home/derek-perdomo/catkin_workspace/build/ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek-perdomo/auro_final/catkin_workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek-perdomo/auro_final/catkin_workspace/src /home/derek-perdomo/auro_final/catkin_workspace/src/ros_kortex/kortex_driver /home/derek-perdomo/auro_final/catkin_workspace/build /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver /home/derek-perdomo/auro_final/catkin_workspace/build/ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros_kortex/kortex_driver/CMakeFiles/_kortex_driver_generate_messages_check_deps_CreateSequence.dir/depend
 

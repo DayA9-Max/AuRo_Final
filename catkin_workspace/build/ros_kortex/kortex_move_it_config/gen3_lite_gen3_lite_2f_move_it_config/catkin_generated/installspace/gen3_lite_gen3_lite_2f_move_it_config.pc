@@ -1,4 +1,4 @@
-prefix=/home/derek-perdomo/catkin_workspace/install
+prefix=/home/derek-perdomo/auro_final/catkin_workspace/install
 
 Name: gen3_lite_gen3_lite_2f_move_it_config
 Description: Description of gen3_lite_gen3_lite_2f_move_it_config
