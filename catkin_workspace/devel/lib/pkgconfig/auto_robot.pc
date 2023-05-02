@@ -1,0 +1,8 @@
+prefix=/home/derek-perdomo/catkin_workspace/devel
+
+Name: auto_robot
+Description: Description of auto_robot
+Version: 2.2.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
