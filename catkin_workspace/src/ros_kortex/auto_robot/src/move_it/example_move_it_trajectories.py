@@ -157,7 +157,13 @@ class ExampleMoveItTrajectories(object):
 
     # Plan and execute
     rospy.loginfo("Planning and going to the Cartesian Pose")
-    return arm_group.go(wait=True)
+    success = False
+    while success is False:
+        print("Trying")
+        print(pose)
+    	success = arm_group.go(wait=True)
+    
+    return success
 
   def reach_gripper_position(self, relative_position):
     gripper_group = self.gripper_group
@@ -179,7 +185,7 @@ def callback(data):
     actual_pose = example.get_cartesian_pose()
     actual_pose.position.x = data.position.x
     actual_pose.position.y = data.position.y
-    actual_pose.position.z = data.position.z
+    actual_pose.position.z = 0.15
     
     # Orientation constraint (we want the end effector to stay the same          orientation)
     #constraints = moveit_msgs.msg.Constraints()
@@ -189,18 +195,33 @@ def callback(data):
     constraints = None
 
     # Send the goal
-    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.005, constraints=constraints)
+    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.01, constraints=constraints)
+    actual_pose.position.z = 0.01
+    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.01, constraints=constraints)
+
     rospy.loginfo("Closing the gripper 50%...")
-    success = example.reach_gripper_position(0.47)
- 
+    success = example.reach_gripper_position(0.55)
+
     actual_pose.position.z += 0.15
-    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.005, constraints=constraints)
+    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.01, constraints=constraints)
+    
+    """
+    actual_pose.position.x = 0.1
+    actual_pose.position.y = 0.0
+    actual_pose.position.z = 0.15
+    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.01, constraints=constraints)
+    """
+
+    actual_pose.position.x = 0.25
+    actual_pose.position.y = 0.25
+    actual_pose.position.z = 0.15
+    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.01, constraints=constraints)
     
     actual_pose.position.x = 0.25
     actual_pose.position.y = 0.25
     actual_pose.position.z = 0.01
-    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.005, constraints=constraints)
-   
+    success = example.reach_cartesian_pose(pose=actual_pose, tolerance=0.01, constraints=constraints)
+
     rospy.loginfo("opening the gripper 50%...")
     success = example.reach_gripper_position(0.9)
    
